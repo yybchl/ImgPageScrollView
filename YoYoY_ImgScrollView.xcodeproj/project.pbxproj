@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB90984B1CD8ACFD00873743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90984A1CD8ACFD00873743 /* main.m */; };
+		FB90984E1CD8ACFD00873743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90984D1CD8ACFD00873743 /* AppDelegate.m */; };
+		FB9098511CD8ACFD00873743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9098501CD8ACFD00873743 /* ViewController.m */; };
+		FB9098541CD8ACFD00873743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9098521CD8ACFD00873743 /* Main.storyboard */; };
+		FB9098561CD8ACFD00873743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9098551CD8ACFD00873743 /* Assets.xcassets */; };
+		FB9098591CD8ACFD00873743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9098571CD8ACFD00873743 /* LaunchScreen.storyboard */; };
+		FB9098641CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9098631CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.m */; };
+		FB90986F1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90986E1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB9098601CD8ACFD00873743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB90983E1CD8ACFD00873743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9098451CD8ACFD00873743;
+			remoteInfo = YoYoY_ImgScrollView;
+		};
+		FB90986B1CD8ACFD00873743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB90983E1CD8ACFD00873743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9098451CD8ACFD00873743;
+			remoteInfo = YoYoY_ImgScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB9098461CD8ACFD00873743 /* YoYoY_ImgScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYoY_ImgScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB90984A1CD8ACFD00873743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB90984C1CD8ACFD00873743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB90984D1CD8ACFD00873743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB90984F1CD8ACFD00873743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB9098501CD8ACFD00873743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB9098531CD8ACFD00873743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9098551CD8ACFD00873743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9098581CD8ACFD00873743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB90985A1CD8ACFD00873743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB90985F1CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoYoY_ImgScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9098631CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoYoY_ImgScrollViewTests.m; sourceTree = "<group>"; };
+		FB9098651CD8ACFD00873743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB90986A1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoYoY_ImgScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB90986E1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoYoY_ImgScrollViewUITests.m; sourceTree = "<group>"; };
+		FB9098701CD8ACFD00873743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9098431CD8ACFD00873743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90985C1CD8ACFD00873743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9098671CD8ACFD00873743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB90983D1CD8ACFD00873743 = {
+			isa = PBXGroup;
+			children = (
+				FB9098481CD8ACFD00873743 /* YoYoY_ImgScrollView */,
+				FB9098621CD8ACFD00873743 /* YoYoY_ImgScrollViewTests */,
+				FB90986D1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests */,
+				FB9098471CD8ACFD00873743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9098471CD8ACFD00873743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9098461CD8ACFD00873743 /* YoYoY_ImgScrollView.app */,
+				FB90985F1CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.xctest */,
+				FB90986A1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9098481CD8ACFD00873743 /* YoYoY_ImgScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FB90984C1CD8ACFD00873743 /* AppDelegate.h */,
+				FB90984D1CD8ACFD00873743 /* AppDelegate.m */,
+				FB90984F1CD8ACFD00873743 /* ViewController.h */,
+				FB9098501CD8ACFD00873743 /* ViewController.m */,
+				FB9098521CD8ACFD00873743 /* Main.storyboard */,
+				FB9098551CD8ACFD00873743 /* Assets.xcassets */,
+				FB9098571CD8ACFD00873743 /* LaunchScreen.storyboard */,
+				FB90985A1CD8ACFD00873743 /* Info.plist */,
+				FB9098491CD8ACFD00873743 /* Supporting Files */,
+			);
+			path = YoYoY_ImgScrollView;
+			sourceTree = "<group>";
+		};
+		FB9098491CD8ACFD00873743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB90984A1CD8ACFD00873743 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB9098621CD8ACFD00873743 /* YoYoY_ImgScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9098631CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.m */,
+				FB9098651CD8ACFD00873743 /* Info.plist */,
+			);
+			path = YoYoY_ImgScrollViewTests;
+			sourceTree = "<group>";
+		};
+		FB90986D1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB90986E1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.m */,
+				FB9098701CD8ACFD00873743 /* Info.plist */,
+			);
+			path = YoYoY_ImgScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9098451CD8ACFD00873743 /* YoYoY_ImgScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9098731CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollView" */;
+			buildPhases = (
+				FB9098421CD8ACFD00873743 /* Sources */,
+				FB9098431CD8ACFD00873743 /* Frameworks */,
+				FB9098441CD8ACFD00873743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoYoY_ImgScrollView;
+			productName = YoYoY_ImgScrollView;
+			productReference = FB9098461CD8ACFD00873743 /* YoYoY_ImgScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB90985E1CD8ACFD00873743 /* YoYoY_ImgScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9098761CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewTests" */;
+			buildPhases = (
+				FB90985B1CD8ACFD00873743 /* Sources */,
+				FB90985C1CD8ACFD00873743 /* Frameworks */,
+				FB90985D1CD8ACFD00873743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9098611CD8ACFD00873743 /* PBXTargetDependency */,
+			);
+			name = YoYoY_ImgScrollViewTests;
+			productName = YoYoY_ImgScrollViewTests;
+			productReference = FB90985F1CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB9098691CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9098791CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewUITests" */;
+			buildPhases = (
+				FB9098661CD8ACFD00873743 /* Sources */,
+				FB9098671CD8ACFD00873743 /* Frameworks */,
+				FB9098681CD8ACFD00873743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB90986C1CD8ACFD00873743 /* PBXTargetDependency */,
+			);
+			name = YoYoY_ImgScrollViewUITests;
+			productName = YoYoY_ImgScrollViewUITests;
+			productReference = FB90986A1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB90983E1CD8ACFD00873743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cn.yoyoy.mw;
+				TargetAttributes = {
+					FB9098451CD8ACFD00873743 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FB90985E1CD8ACFD00873743 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB9098451CD8ACFD00873743;
+					};
+					FB9098691CD8ACFD00873743 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB9098451CD8ACFD00873743;
+					};
+				};
+			};
+			buildConfigurationList = FB9098411CD8ACFD00873743 /* Build configuration list for PBXProject "YoYoY_ImgScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB90983D1CD8ACFD00873743;
+			productRefGroup = FB9098471CD8ACFD00873743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9098451CD8ACFD00873743 /* YoYoY_ImgScrollView */,
+				FB90985E1CD8ACFD00873743 /* YoYoY_ImgScrollViewTests */,
+				FB9098691CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9098441CD8ACFD00873743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9098591CD8ACFD00873743 /* LaunchScreen.storyboard in Resources */,
+				FB9098561CD8ACFD00873743 /* Assets.xcassets in Resources */,
+				FB9098541CD8ACFD00873743 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90985D1CD8ACFD00873743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9098681CD8ACFD00873743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9098421CD8ACFD00873743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9098511CD8ACFD00873743 /* ViewController.m in Sources */,
+				FB90984E1CD8ACFD00873743 /* AppDelegate.m in Sources */,
+				FB90984B1CD8ACFD00873743 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90985B1CD8ACFD00873743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9098641CD8ACFD00873743 /* YoYoY_ImgScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9098661CD8ACFD00873743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90986F1CD8ACFD00873743 /* YoYoY_ImgScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB9098611CD8ACFD00873743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9098451CD8ACFD00873743 /* YoYoY_ImgScrollView */;
+			targetProxy = FB9098601CD8ACFD00873743 /* PBXContainerItemProxy */;
+		};
+		FB90986C1CD8ACFD00873743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9098451CD8ACFD00873743 /* YoYoY_ImgScrollView */;
+			targetProxy = FB90986B1CD8ACFD00873743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB9098521CD8ACFD00873743 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9098531CD8ACFD00873743 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB9098571CD8ACFD00873743 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9098581CD8ACFD00873743 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9098711CD8ACFD00873743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB9098721CD8ACFD00873743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9098741CD8ACFD00873743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoYoY_ImgScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB9098751CD8ACFD00873743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoYoY_ImgScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB9098771CD8ACFD00873743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoYoY_ImgScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoYoY_ImgScrollView.app/YoYoY_ImgScrollView";
+			};
+			name = Debug;
+		};
+		FB9098781CD8ACFD00873743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoYoY_ImgScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoYoY_ImgScrollView.app/YoYoY_ImgScrollView";
+			};
+			name = Release;
+		};
+		FB90987A1CD8ACFD00873743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoYoY_ImgScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoYoY_ImgScrollView;
+			};
+			name = Debug;
+		};
+		FB90987B1CD8ACFD00873743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoYoY_ImgScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoYoY_ImgScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9098411CD8ACFD00873743 /* Build configuration list for PBXProject "YoYoY_ImgScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9098711CD8ACFD00873743 /* Debug */,
+				FB9098721CD8ACFD00873743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9098731CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9098741CD8ACFD00873743 /* Debug */,
+				FB9098751CD8ACFD00873743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB9098761CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9098771CD8ACFD00873743 /* Debug */,
+				FB9098781CD8ACFD00873743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB9098791CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB90987A1CD8ACFD00873743 /* Debug */,
+				FB90987B1CD8ACFD00873743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB90983E1CD8ACFD00873743 /* Project object */;
+}
