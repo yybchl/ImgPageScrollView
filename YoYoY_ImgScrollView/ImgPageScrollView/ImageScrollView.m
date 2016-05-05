@@ -31,6 +31,9 @@
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, 1)];
+        line.backgroundColor = [UIColor clearColor];
+        [self addSubview:line]; //UIScrollView（包括其子类），第一个添加到控制器的视图上才会预留空白，添加这个视图，取消留白
         _imgScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
         _imgScrollView.delegate = self;
         _imgScrollView.pagingEnabled = YES;
