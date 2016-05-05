@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB7186D51CD9F6E600509E75 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7186D41CD9F6E600509E75 /* ImageScrollView.m */; };
 		FB90984B1CD8ACFD00873743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90984A1CD8ACFD00873743 /* main.m */; };
 		FB90984E1CD8ACFD00873743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90984D1CD8ACFD00873743 /* AppDelegate.m */; };
 		FB9098511CD8ACFD00873743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9098501CD8ACFD00873743 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB7186D31CD9F6E600509E75 /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		FB7186D41CD9F6E600509E75 /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
 		FB9098461CD8ACFD00873743 /* YoYoY_ImgScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYoY_ImgScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB90984A1CD8ACFD00873743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB90984C1CD8ACFD00873743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB7186D21CD9F6E600509E75 /* ImgPageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FB7186D31CD9F6E600509E75 /* ImageScrollView.h */,
+				FB7186D41CD9F6E600509E75 /* ImageScrollView.m */,
+			);
+			path = ImgPageScrollView;
+			sourceTree = "<group>";
+		};
 		FB90983D1CD8ACFD00873743 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		FB9098481CD8ACFD00873743 /* YoYoY_ImgScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				FB7186D21CD9F6E600509E75 /* ImgPageScrollView */,
 				FB90984C1CD8ACFD00873743 /* AppDelegate.h */,
 				FB90984D1CD8ACFD00873743 /* AppDelegate.m */,
 				FB90984F1CD8ACFD00873743 /* ViewController.h */,
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9098511CD8ACFD00873743 /* ViewController.m in Sources */,
+				FB7186D51CD9F6E600509E75 /* ImageScrollView.m in Sources */,
 				FB90984E1CD8ACFD00873743 /* AppDelegate.m in Sources */,
 				FB90984B1CD8ACFD00873743 /* main.m in Sources */,
 			);
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoYoY_ImgScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoYoY_ImgScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.yoyoy.mw.YoYoY-ImgScrollView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +512,7 @@
 				FB9098751CD8ACFD00873743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB9098761CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				FB9098781CD8ACFD00873743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB9098791CD8ACFD00873743 /* Build configuration list for PBXNativeTarget "YoYoY_ImgScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				FB90987B1CD8ACFD00873743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
