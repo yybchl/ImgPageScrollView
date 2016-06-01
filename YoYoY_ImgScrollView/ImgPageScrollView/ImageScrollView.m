@@ -95,10 +95,7 @@
 - (void)setVFrame:(int)index imageView:(UIImageView *)image{
     image.frame = CGRectMake(self.frame.size.width * index, 0, self.frame.size.width, self.frame.size.height);
 }
-#pragma mark 图片滚轮的方法
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    
-}
+
 #pragma mark 下一张图片的方法
 - (void)nextImage{
     if (_curIndex == self.pics.count - 1) {
@@ -126,16 +123,26 @@
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
     [self addTimer];
 }
-#pragma mark 结束拖拉,视图位置确定以后
+#pragma mark 图片滚轮的方法
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if (self.pics.count == 1) {
+        return;
+    }
+    if (scrollView.contentOffset.x > self.pics.count * scrollView.frame.size.width) {
+        _imgScrollView.contentOffset = CGPointMake(0, 0);
+    }else if (scrollView.contentOffset.x < 0) {
+        _imgScrollView.contentOffset = CGPointMake(self.pics.count * scrollView.frame.size.width, 0);
+    }
+}
+#pragma mark 滚动停止事件方法
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if (self.pics.count == 1) {
         return;
     }
     if (scrollView.contentOffset.x == self.pics.count * scrollView.frame.size.width) {
         _imgScrollView.contentOffset = CGPointMake(0, 0);
-    }else if (scrollView.contentOffset.x == 0) {
-        _imgScrollView.contentOffset = CGPointMake(self.pics.count * scrollView.frame.size.width, 0);
     }
+    //索引
     for (int i = 0; i <= self.pics.count; i++) {
         if (scrollView.contentOffset.x == i * self.frame.size.width) {
             if (i == 0) {
